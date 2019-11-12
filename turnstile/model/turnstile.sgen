@@ -1,0 +1,15 @@
+GeneratorModel for yakindu::generic {
+
+	statechart turnstile {
+
+		feature Outlet {
+			targetProject = "turnstile"
+			targetFolder = "src-gen"
+		}
+
+		feature Generator {
+			generatorProject = "org.yakindu.sct.generator.spring"
+			generatorClass = "org.yakindu.sct.generator.spring.SpringGenerator"
+		}
+	}
+}
